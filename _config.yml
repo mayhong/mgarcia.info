@@ -1,0 +1,3 @@
+baseurl: ""
+url: "https://www.mgarcia.info"
+exclude: ['README.md', 'CNAME', '.gitignore']
