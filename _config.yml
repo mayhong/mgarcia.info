@@ -1,3 +1,4 @@
 baseurl: ""
 url: "https://www.mgarcia.info"
 exclude: ['README.md', 'CNAME', '.gitignore']
+maps_api: "AIzaSyA-swbMmPLMu9vAKjDlpSs8CAr2fxK7lp8"
