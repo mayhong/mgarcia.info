@@ -5,16 +5,25 @@
       <div class="navbar-header">
         <!-- Mobile Toggle Menu Button -->
         <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-        <a class="navbar-brand" href="{{baseurl}}">Mario García</a>
+        <a class="navbar-brand" href="{{site.baseurl_root}}">Mario García</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#" data-nav-section="home"><span>Inicio</span></a></li>
-          <li><a href="#" data-nav-section="work"><span>Proyectos</span></a></li>
-          <li><a href="#" data-nav-section="technology"><span>Tecnología</span></a></li>
-          <li><a href="#" data-nav-section="services"><span>Servicios</span></a></li>
-          <li><a href="#" data-nav-section="about"><span>Acerca</span></a></li>
-          <li><a href="#" data-nav-section="contact"><span>Contacto</span></a></li>
+          <li class="active"><a href="#" data-nav-section="home"><span>{% t pages.home %}</span></a></li>
+          <li><a href="#" data-nav-section="work"><span>{% t pages.projects %}</span></a></li>
+          <li><a href="#" data-nav-section="technology"><span>{% t pages.technology %}</span></a></li>
+          <li><a href="#" data-nav-section="services"><span>{% t pages.services %}</span></a></li>
+          <li><a href="#" data-nav-section="about"><span>{% t pages.about %}</span></a></li>
+          <li><a href="#" data-nav-section="contact"><span>{% t pages.contact %}</span></a></li>
+
+          {% if site.lang != "en" %}
+            {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+            <li><a href="{{ link1 }}" class="external" >English</a></li>
+          {% elsif site.lang != "es" %}
+            {% capture link2 %}{{ site.baseurl_root }}es{{ page.url }}{% endcapture %}
+            <li><a href="{{ link2 }}" class="external" >Español</a></li>
+          {% endif %}
+
         </ul>
       </div>
     </nav>

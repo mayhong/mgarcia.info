@@ -1,0 +1,86 @@
+pages:
+  home: "Inicio"
+  projects: "Proyectos"
+  technology: "Tecnología"
+  services: "Servicios"
+  about: "Acerca"
+  contact: "Contacto"
+home:
+  heading: "Hola, soy Mario García, desarrollador web freelance"
+  planning:
+    title: "Planeación"
+    text: "Analizo los requerimientos especificos de tu proyecto, cada detalle es muy importante para crear el producto perfecto."
+  development:
+    title: "Desarrollo"
+    text: "Utilizo las mejores herramientas tecnológicas para cada caso, permitiendo el óptimo desempeño posible."
+  deployment:
+    title: "Despliegue"
+    text: "La puesta en producción de cada proyecto se hace en el ambiente en el que mejor se desempeña, según sus requerimientos."
+  projects:
+    title: "Proyectos"
+    text: "Cada proyecto es único, aquí algunos de ellos."
+  project_1:
+    title: "Click Ofertas"
+    subtitle: "Web | Sitio de ofertas y CMS"
+  project_2:
+    title: "Orbex Logistics"
+    subtitle: "Web | Sistema de almacén (WMS)"
+  project_3:
+    title: "Alpaimport"
+    subtitle: "Web | Sistema de importación y venta"
+  project_4:
+    title: "Nexus Paquetería"
+    subtitle: "Sitio web"
+  project_5:
+    title: "Marco Corona"
+    subtitle: "Sitio web político"
+  project_6:
+    title: "Nacho Anaya"
+    subtitle: "Sitio web político"
+  project_7:
+    title: "Periódico El Mexicano"
+    subtitle: "Apps, CMS, sistemas, sitios y más"
+  project_8:
+    title: "UABC"
+    subtitle: "Web | Sistema de gestión académica"
+  project_9:
+    title: "CST"
+    subtitle: "Web | Red social"
+  technology:
+    title: "Tecnología"
+    text: "En mis inicios trabajé durante 3 años y medio con <b>C#</b>, <b>ASP.NET MVC Framework</b> y <b>SQL Server</b>, junto con tecnologías front-end como <b>jQuery</b> y <b>Bootstrap</b> y moviles como <b>Sencha Touch</b>, <b>jQuery Mobile</b> y <b>Apache Cordova</b>. Antes de salirme de mi primer empleo como desarrollador comencé a desarrollar proyectos freelance con <b>PHP</b>, el framework <b>CodeIgniter</b> y <b>MySQL</b> como la base de datos, al iniciar en mi siguiente trabajo decidí orientar el negocio hacia tecnologías libres adoptando el framework de PHP <b>Laravel</b> y <b>Angular</b> para el front-end, <b>Wordpress</b> y <b>Jekyll</b> para los sitios web, <b>Ionic</b> y <b>Apache Cordova</b> par las apps y <b>GIT</b> como software de control de versiones. Y sin duda mi lenguaje favorito es <b>Javascript</b>, por lo que últimamente he orientado mi aprendizaje en tecnologías basadas en éste como Node.js, MongoDB, Angular y React."
+  services:
+    title: "Servicios"
+    text: "Durante estos años he tenido la oportunidad de crecer y poder ofrecer estos servicios."
+  service_1:
+    title: "Desarrollo de software"
+    text: "¿Tienes una idea, un proyecto o un proceso que quieres automatizar? ¡Platícamelo! estoy seguro de que lo podemos realizar."
+  service_2:
+    title: "Sitios Web"
+    text: "¿Tienes un sitio feo, anticuado y aburrido? o ¿ni siquiera eso tienes? ¡Hablamé! crearé algo genial para tí y tu negocio.<br>&nbsp;"
+  service_3:
+    title: "Desarrollo de apps"
+    text: "¿Necesitas presencia en cualquier ubicación? ¡Contáctame! lo lograremos con aplicaciones en dispositivos móviles."
+  service_4:
+    title: "Comercio electrónico"
+    text: "¿Quieres una tienda abierta las 24hrs del día y sin límite de inventario? ¡Llamamé! pondremos en movimiento todos tus productos."
+  about:
+    title: "Acerca de mí"
+    text: "Hola, soy Mario, nací y vivo en Tijuana, frontera con Estados Unidos. Desde temprano me apasionó el mundo de la informática, entré a una escuela de computación donde descubrí que esta era la carrera que quería estudiar, y asi lo hice, antes de salir de la universidad entre a trabajar a <a href='http://el-mexicano.com.mx' target='_blank'>El Mexicano</a>, un periódico regional, como desarrollador de software, donde tuve la oportunidad de aprender muchísimo, y después de 3 años y medio junto con 2 compañeros de trabajo, abrimos nuestra empresa de Marketing Digital, <a href='http://gestiondigital.mx' target='_blank'>Gestión Digital</a>, donde estuve 2 años y aprendí mucho de Marketing, desarrollo de sitios web, SEO, etc., pero mi pasión es el software y los retos que este conlleva, y aunque dentro de esta empresa tenía proyectos de desarrollo, decidí separarme para dedicar el 100% a mi especialidad, comenzando como freelancer y en un futuro crear mi empresa de desarrollo de software."
+  facts:
+    title: "Hechos curiosos"
+    fact_1: "Proyectos concluidos"
+    fact_2: "Lineas de código"
+    fact_3: "Tazas de café"
+    fact_4: "Clientes satisfechos"
+  contact:
+    title: "Mantente en contacto"
+    text: "Hablame sobre tus ideas, proyectos o simplemente dí Hola :)"
+    subtitle_1: "Información de contacto"
+    subtitle_2: "Contáctame"
+    subject: "Nuevo contacto"
+    name: "Nombre"
+    email: "Email"
+    phone: "Teléfono"
+    message: "Mensaje"
+    send: "Enviar mensaje"

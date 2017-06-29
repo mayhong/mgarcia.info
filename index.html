@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section id="fh5co-home" data-section="home" style="background-image: url({{baseurl}}/images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+<section id="fh5co-home" data-section="home" style="background-image: url({{ "/images/full_image_2.jpg" | prepend: site.baseurl_root }});" data-stellar-background-ratio="0.5">
 	<div class="gradient"></div>
 	<div class="container">
 		<div class="text-wrap">
@@ -10,8 +10,8 @@ layout: default
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="fh5co-person text-center to-animate fadeInUp animated me-header">
-							<figure><img src="{{baseurl}}/images/avatar.jpg" alt="Image"></figure>
-							<h1>Hola soy Mario García, un desarrollador web freelance</h1>
+							<figure><img src="{{ "/images/avatar.jpg" | prepend: site.baseurl_root }}" alt="Image"></figure>
+							<h1>{% t home.heading %}</h1>
 						</div>
 					</div>
 				</div>
@@ -24,31 +24,31 @@ layout: default
 <section id="fh5co-intro">
 	<div class="container">
 		<div class="row row-bottom-padded-lg">
-			<div class="fh5co-block to-animate" style="background-image: url({{baseurl}}/images/img_7.jpg);">
+			<div class="fh5co-block to-animate" style="background-image: url({{ "/images/img_7.jpg" | prepend: site.baseurl_root }});">
 				<div class="overlay-darker"></div>
 				<div class="overlay"></div>
 				<div class="fh5co-text">
 					<i class="fh5co-intro-icon icon-bulb"></i>
-					<h2>Planeación</h2>
-					<p>Analizo los requerimientos especificos de tu proyecto, cada detalle es muy importante para crear el producto perfecto.</p>
+					<h2>{% t home.planning.title %}</h2>
+					<p>{% t home.planning.text %}</p>
 				</div>
 			</div>
-			<div class="fh5co-block to-animate" style="background-image: url({{baseurl}}/images/img_8.jpg);">
+			<div class="fh5co-block to-animate" style="background-image: url({{ "/images/img_8.jpg" | prepend: site.baseurl_root }});">
 				<div class="overlay-darker"></div>
 				<div class="overlay"></div>
 				<div class="fh5co-text">
 					<i class="fh5co-intro-icon icon-wrench"></i>
-					<h2>Desarrollo</h2>
-					<p>Utilizo las mejores herramientas tecnológicas para cada caso, permitiendo el óptimo desempeño posible.</p>
+					<h2>{% t home.development.title %}</h2>
+					<p>{% t home.development.text %}</p>
 				</div>
 			</div>
-			<div class="fh5co-block to-animate" style="background-image: url({{baseurl}}/images/img_10.jpg);">
+			<div class="fh5co-block to-animate" style="background-image: url({{ "/images/img_10.jpg" | prepend: site.baseurl_root }});">
 				<div class="overlay-darker"></div>
 				<div class="overlay"></div>
 				<div class="fh5co-text">
 					<i class="fh5co-intro-icon icon-rocket"></i>
-					<h2>Despliegue</h2>
-					<p>La puesta en producción de cada proyecto se hace en el ambiente en el que mejor se desempeña, según sus requerimientos.</p>
+					<h2>{% t home.deployment.title %}</h2>
+					<p>{% t home.deployment.text %}</p>
 				</div>
 			</div>
 		</div>
@@ -59,10 +59,10 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
-				<h2 class="to-animate">Proyectos</h2>
+				<h2 class="to-animate">{% t home.projects.title %}</h2>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 subtext to-animate">
-						<h3>Cada proyecto es único, aquí algunos de ellos.</h3>
+						<h3>{% t home.projects.text %}</h3>
 					</div>
 				</div>
 			</div>
@@ -70,41 +70,20 @@ layout: default
 
 		<div class="row row-bottom-padded-sm">
 			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{baseurl}}/images/click-ofertas.jpg" class="fh5co-project-item image-popup to-animate">
-					<img src="{{baseurl}}/images/click-ofertas_thumb.jpg" alt="Image" class="img-responsive">
+				<a href="{{ "/images/click-ofertas.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+					<img src="{{ "/images/click-ofertas_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 					<div class="fh5co-text">
-						<h2>Click Ofertas</h2>
-						<span>Web | Sitio de ofertas y CMS</span>
+						<h2>{% t home.project_1.title %}</h2>
+						<span>{% t home.project_1.subtitle %}</span>
 					</div>
 				</a>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{baseurl}}/images/wms.jpg" class="fh5co-project-item image-popup to-animate">
-					<img src="{{baseurl}}/images/wms_thumb.jpg" alt="Image" class="img-responsive">
+				<a href="{{ "/images/wms.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+					<img src="{{ "/images/wms_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 					<div class="fh5co-text">
-						<h2>Orbex Logistics</h2>
-						<span>Web | Sistema de almacen (WMS)</span>
-					</div>
-				</a>
-			</div>
-
-			<div class="clearfix visible-sm-block"></div>
-
-			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{baseurl}}/images/alpaimport.jpg" class="fh5co-project-item image-popup to-animate">
-					<img src="{{baseurl}}/images/alpaimport_thumb.jpg" alt="Image" class="img-responsive">
-					<div class="fh5co-text">
-						<h2>Alpaimport</h2>
-						<span>Web | Sistema de importación y venta</span>
-					</div>
-				</a>
-			</div>
-			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{baseurl}}/images/nexus.jpg" class="fh5co-project-item image-popup to-animate">
-					<img src="{{baseurl}}/images/nexus_thumb.jpg" alt="Image" class="img-responsive">
-					<div class="fh5co-text">
-						<h2>Nexus Paqueteria</h2>
-						<span>Sitio web</span>
+						<h2>{% t home.project_2.title %}</h2>
+						<span>{% t home.project_2.subtitle %}</span>
 					</div>
 				</a>
 			</div>
@@ -112,20 +91,41 @@ layout: default
 			<div class="clearfix visible-sm-block"></div>
 
 			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{baseurl}}/images/marco-corona.jpg" class="fh5co-project-item image-popup to-animate">
-					<img src="{{baseurl}}/images/marco-corona_thumb.jpg" alt="Image" class="img-responsive">
+				<a href="{{ "/images/alpaimport.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+					<img src="{{ "/images/alpaimport_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 					<div class="fh5co-text">
-						<h2>Marco Corona</h2>
-						<span>Sitio web político</span>
+						<h2>{% t home.project_3.title %}</h2>
+						<span>{% t home.project_3.subtitle %}</span>
 					</div>
 				</a>
 			</div>
 			<div class="col-md-4 col-sm-6 col-xxs-12">
-				<a href="{{baseurl}}/images/nacho-anaya.jpg" class="fh5co-project-item image-popup to-animate">
-					<img src="{{baseurl}}/images/nacho-anaya_thumb.jpg" alt="Image" class="img-responsive">
+				<a href="{{ "/images/nexus.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+					<img src="{{ "/images/nexus_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 					<div class="fh5co-text">
-						<h2>Nacho Anaya</h2>
-						<span>Sitio web político</span>
+						<h2>{% t home.project_4.title %}</h2>
+						<span>{% t home.project_4.subtitle %}</span>
+					</div>
+				</a>
+			</div>
+
+			<div class="clearfix visible-sm-block"></div>
+
+			<div class="col-md-4 col-sm-6 col-xxs-12">
+				<a href="{{ "/images/marco-corona.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+					<img src="{{ "/images/marco-corona_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
+					<div class="fh5co-text">
+						<h2>{% t home.project_5.title %}</h2>
+						<span>{% t home.project_5.subtitle %}</span>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xxs-12">
+				<a href="{{ "/images/nacho-anaya.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+					<img src="{{ "/images/nacho-anaya_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
+					<div class="fh5co-text">
+						<h2>{% t home.project_6.title %}</h2>
+						<span>{% t home.project_6.subtitle %}</span>
 					</div>
 				</a>
 			</div>
@@ -134,20 +134,20 @@ layout: default
 
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="{{baseurl}}/images/el-mexicano.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="{{baseurl}}/images/el-mexicano_thumb.jpg" alt="Image" class="img-responsive">
+					<a href="{{ "/images/el-mexicano.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+						<img src="{{ "/images/el-mexicano_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-							<h2>Periódico El Mexicano</h2>
-							<span>Apps, CMS, sistemas, sitios y más</span>
+							<h2>{% t home.project_7.title %}</h2>
+							<span>{% t home.project_7.subtitle %}</span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="{{baseurl}}/images/uabc.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="{{baseurl}}/images/uabc_thumb.jpg" alt="Image" class="img-responsive">
+					<a href="{{ "/images/uabc.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+						<img src="{{ "/images/uabc_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-							<h2>UABC</h2>
-							<span>Web | Sistema de gestión académica</span>
+							<h2>{% t home.project_8.title %}</h2>
+							<span>{% t home.project_8.subtitle %}</span>
 						</div>
 					</a>
 				</div>
@@ -155,11 +155,11 @@ layout: default
 				<div class="clearfix visible-sm-block"></div>
 
 				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="{{baseurl}}/images/cst.jpg" class="fh5co-project-item image-popup to-animate">
-						<img src="{{baseurl}}/images/cst_thumb.jpg" alt="Image" class="img-responsive">
+					<a href="{{ "/images/cst.jpg" | prepend: site.baseurl_root }}" class="fh5co-project-item image-popup to-animate">
+						<img src="{{ "/images/cst_thumb.jpg" | prepend: site.baseurl_root }}" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-							<h2>CST</h2>
-							<span>Web | Red social</span>
+							<h2>{% t home.project_9.title %}</h2>
+							<span>{% t home.project_9.subtitle %}</span>
 						</div>
 					</a>
 				</div>
@@ -172,10 +172,10 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
-				<h2 class="to-animate">Tecnología</h2>
+				<h2 class="to-animate">{% t home.technology.title %}</h2>
 				<div class="row">
 					<div class="col-md-12 subtext to-animate">
-						<h3>En mis inicios trabajé durante 3 años y medio con <b>C#</b>, <b>ASP.NET MVC Framework</b> y <b>SQL Server</b>, junto con tecnologías front-end como <b>jQuery</b> y <b>Bootstrap</b> y moviles como <b>Sencha Touch</b>, <b>jQuery Mobile</b> y <b>Cordova</b>. Antes de salirme de mi primer empleo como desarrollador comencé a desarrollar proyectos freelance con <b>PHP</b>, el framework <b>CodeIgniter</b> y <b>MySQL</b> para la base de datos, al iniciar en mi siguiente trabajo decidí orientar el negocio hacia tecnologías libres adoptando el framework de PHP <b>Laravel</b> y <b>Angular</b> para el front-end, <b>Wordpress</b> y <b>Jekyll</b> para los sitios web, <b>Ionic</b> y <b>Cordova</b> par las apps y <b>GIT</b> como software de control de versiones. Y sin duda mi lenguaje favorito es <b>Javascript</b>, por lo que últimamente he orientado mi aprendizaje en tecnologías basadas en éste como Node.js, MongoDB, Angular y React.</h3>
+						<h3>{% t home.technology.text %}</h3>
 					</div>
 				</div>
 			</div>
@@ -188,10 +188,10 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-left">
-				<h2 class=" left-border to-animate">Servicios</h2>
+				<h2 class=" left-border to-animate">{% t home.services.title %}</h2>
 				<div class="row">
 					<div class="col-md-8 subtext to-animate">
-						<h3>Durante estos años he tenido la oportunidad de crecer y poder ofrecer estos servicios.</h3>
+						<h3>{% t home.services.text %}</h3>
 					</div>
 				</div>
 			</div>
@@ -199,26 +199,26 @@ layout: default
 		<div class="row">
 			<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 				<i class="icon to-animate-2 icon-cogs"></i>
-				<h3>Desarrollo de software</h3>
-				<p>¿Tienes una idea, un proyecto o un proceso que quieres automatizar? ¡Platícamelo! estoy seguro de que lo podemos realizar.</p>
+				<h3>{% t home.service_1.title %}</h3>
+				<p>{% t home.service_1.text %}</p>
 			</div>
 			<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 				<i class="icon to-animate-2 icon-layers2"></i>
-				<h3>Sitios Web</h3>
-				<p>¿Tienes un sitio feo, anticuado y aburrido? o ¿ni siquiera eso tienes? ¡Hablamé! crearé algo genial para tí y tu negocio.<br>&nbsp;</p>
+				<h3>{% t home.service_2.title %}</h3>
+				<p>{% t home.service_2.text %}</p>
 			</div>
 
 			<div class="clearfix visible-sm-block"></div>
 
 			<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 				<i class="icon to-animate-2 icon-mobile"></i>
-				<h3>Desarrollo de apps</h3>
-				<p>¿Necesitas prescencia en cualquier ubicación? ¡Contáctame! lo lograremos con aplicaciones en dispositivos móviles.</p>
+				<h3>{% t home.service_3.title %}</h3>
+				<p>{% t home.service_3.text %}</p>
 			</div>
 			<div class="col-md-6 col-sm-6 fh5co-service to-animate">
 				<i class="icon to-animate-2 icon-monitor"></i>
-				<h3>Comercio electrónico</h3>
-				<p>¿Quieres una tienda abierta las 24hrs del día y sin límite de inventario? ¡Llamamé! pondremos en movimiento todos tus productos.</p>
+				<h3>{% t home.service_4.title %}</h3>
+				<p>{% t home.service_4.text %}</p>
 			</div>
 
 		</div>
@@ -229,10 +229,10 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
-				<h2 class="to-animate">Acerca de mí</h2>
+				<h2 class="to-animate">{% t home.about.title %}</h2>
 				<div class="row">
 					<div class="col-md-12 subtext to-animate">
-						<h3>Hola soy Mario, nací y vivo en Tijuana, frontera con Estados Unidos, desde temprano me apasionó el mundo de la informática, entré a una escuela de computación donde descubrí que esta era la carrera que quería estudiar, y asi lo hice, antes de salir de la universidad entre a trabajar a <a href="http://www.el-mexicano.com.mx" target="_blank">El Mexicano</a>, un periódico regional, como desarrollador de software, donde tuve la oportunidad de aprender muchísimo, y después de 3 años y medio junto con 2 compañeros de trabajo, abrimos nuestra empresa de Marketing Digital, <a href="http://www.gestiondigital.mx" target="_blank">Gestión Digital</a>, donde estuve 2 años y aprendí mucho de Marketing, desarrollo de sitios web, SEO, etc., pero mi pasión es el software y los retos que este conlleva, y aunque dentro de esta empresa tenía proyectos de desarrollo, decidí separarme para dedicar el 100% a mi especialidad, comenzando como freelancer y en un futuro crear mi empresa de desarrollo de software.</h3>
+						<h3>{% t home.about.text %}</h3>
 					</div>
 				</div>
 			</div>
@@ -240,12 +240,12 @@ layout: default
 	</div>
 </section>
 
-<section id="fh5co-counters" style="background-image: url({{baseurl}}/images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+<section id="fh5co-counters" style="background-image: url({{ "/images/full_image_1.jpg" | prepend: site.baseurl_root }});" data-stellar-background-ratio="0.5">
 	<div class="fh5co-overlay"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center to-animate">
-				<h2>Hechos curiosos</h2>
+				<h2>{% t home.facts.title %}</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -253,28 +253,28 @@ layout: default
 				<div class="fh5co-counter to-animate">
 					<i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
 					<span class="fh5co-counter-number js-counter" data-from="0" data-to="41" data-speed="5000" data-refresh-interval="50">41</span>
-					<span class="fh5co-counter-label">Proyectos concluidos</span>
+					<span class="fh5co-counter-label">{% t home.facts.fact_1 %}</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="fh5co-counter to-animate">
 					<i class="fh5co-counter-icon icon-code to-animate-2"></i>
 					<span class="fh5co-counter-number js-counter" data-from="0" data-to="271694" data-speed="5000" data-refresh-interval="50">2343409</span>
-					<span class="fh5co-counter-label">Lineas de código</span>
+					<span class="fh5co-counter-label">{% t home.facts.fact_2 %}</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="fh5co-counter to-animate">
 					<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
 					<span class="fh5co-counter-number js-counter" data-from="0" data-to="2227" data-speed="5000" data-refresh-interval="50">2227</span>
-					<span class="fh5co-counter-label">Tazas de café</span>
+					<span class="fh5co-counter-label">{% t home.facts.fact_3 %}</span>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<div class="fh5co-counter to-animate">
 					<i class="fh5co-counter-icon icon-people to-animate-2"></i>
 					<span class="fh5co-counter-number js-counter" data-from="0" data-to="22" data-speed="5000" data-refresh-interval="50">22</span>
-					<span class="fh5co-counter-label">Clientes satisfechos</span>
+					<span class="fh5co-counter-label">{% t home.facts.fact_4 %}</span>
 				</div>
 			</div>
 		</div>
@@ -285,17 +285,17 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
-				<h2 class="to-animate">Mantente en contacto</h2>
+				<h2 class="to-animate">{% t home.contact.title %}</h2>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 subtext to-animate">
-						<h3>Hablame sobre tus ideas, proyectos o simplemente dí Hola :)</h3>
+						<h3>{% t home.contact.text %}</h3>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row row-bottom-padded-md">
 			<div class="col-md-6 to-animate">
-				<h3>Información de contacto</h3>
+				<h3>{% t home.contact.subtitle_1 %}</h3>
 				<ul class="fh5co-contact-info">
 					<li class="fh5co-contact-address ">
 						<i class="icon-home"></i>Tijuana, MX
@@ -310,31 +310,31 @@ layout: default
 
 					<li><i class="icon-github"></i><a href="https://github.com/mayhong" target="_blank">Github</a></li>
 					<li><i class="icon-twitter"></i><a href="https://twitter.com/mayhongg" target="_blank">Twitter</a></li>
-					<li><i class="icon-linkedin"></i><a href="https://www.linkedin.com/in/mayhongg/" target="_blank">LinkedIn</a></li>
+					<li><i class="icon-linkedin"></i><a href="https://www.linkedin.com/in/mayhongg/{{ site.lang }}" target="_blank">LinkedIn</a></li>
 				</ul>
 			</div>
 
 			<div class="col-md-6 to-animate">
-				<h3>Contáctame</h3>
+				<h3>{% t home.contact.subtitle_2 %}</h3>
 				<form id="contact-form">
-					<input type="hidden" name="_subject" value="Nuevo contacto" />
-					<input type="hidden" name="_language" value="es" />
+					<input type="hidden" name="_subject" value="{% t home.contact.subject %}" />
+					<input type="hidden" name="_language" value="{{ site.lang }}" />
 					<input type="text" name="_gotcha" style="display:none" />
 					<div class="form-group ">
-						<label for="name" class="sr-only">Nombre</label>
-						<input id="name" class="form-control" name="name" placeholder="Nombre" type="text">
+						<label for="name" class="sr-only">{% t home.contact.name %}</label>
+						<input id="name" class="form-control" name="name" placeholder="{% t home.contact.name %}" type="text">
 					</div>
 					<div class="form-group ">
-						<label for="email" class="sr-only">Email</label>
-						<input id="email" class="form-control" name="email" placeholder="Email" type="email">
+						<label for="email" class="sr-only">{% t home.contact.email %}</label>
+						<input id="email" class="form-control" name="email" placeholder="{% t home.contact.email %}" type="email">
 					</div>
 					<div class="form-group ">
-						<label for="phone" class="sr-only">Teléfono</label>
-						<input id="phone" class="form-control" name="phone" placeholder="Teléfono" type="text">
+						<label for="phone" class="sr-only">{% t home.contact.phone %}</label>
+						<input id="phone" class="form-control" name="phone" placeholder="{% t home.contact.phone %}" type="text">
 					</div>
 					<div class="form-group ">
-						<label for="message" class="sr-only">Mensaje</label>
-						<textarea id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+						<label for="message" class="sr-only">{% t home.contact.message %}</label>
+						<textarea id="message" name="message" cols="30" rows="5" class="form-control" placeholder="{% t home.contact.message %}"></textarea>
 					</div>
 					<div class="form-group ">
 						<button
@@ -343,7 +343,7 @@ layout: default
 							data-callback="sendEmail"
 							data-badge="inline"
 							style="margin-top:15px;">
-							Enviar mensaje
+							{% t home.contact.send %}
 						</button>
 					</div>
 				</form>

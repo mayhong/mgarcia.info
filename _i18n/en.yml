@@ -1,0 +1,86 @@
+pages:
+  home: Home
+  projects: Projects
+  technology: Technology
+  services: Services
+  about: About
+  contact: Contact
+home:
+  heading: "Hi, I'm Mario García, freelance web developer"
+  planning:
+    title: "Planning"
+    text: "I analyze the specific requirements of your project, every detail is very important to create the perfect product."
+  development:
+    title: "Development"
+    text: "I use the best technological tools for each case, allowing the optimum performance possible.<br>&nbsp;"
+  deployment:
+    title: "Deployment"
+    text: "The production of each project is done in the environment in which it performs best, according to its requirements."
+  projects:
+    title: "Projects"
+    text: "Each project is unique, here some of them."
+  project_1:
+    title: "Click Ofertas"
+    subtitle: "Web | Offer website and CMS"
+  project_2:
+    title: "Orbex Logistics"
+    subtitle: "Web | Warehouse system (WMS)"
+  project_3:
+    title: "Alpaimport"
+    subtitle: "Web | Import and sale system"
+  project_4:
+    title: "Nexus Paquetería"
+    subtitle: "Website"
+  project_5:
+    title: "Marco Corona"
+    subtitle: "Political website"
+  project_6:
+    title: "Nacho Anaya"
+    subtitle: "Political website"
+  project_7:
+    title: "El Mexicano Newspaper"
+    subtitle: "Apps, CMS, systems, websites & more"
+  project_8:
+    title: "UABC (University)"
+    subtitle: "Web | Academic management system"
+  project_9:
+    title: "CST"
+    subtitle: "Web | Social network"
+  technology:
+    title: "Technology"
+    text: "In my beginnings I worked for 3 and a half years with <b>C#</b>, <b>ASP.NET MVC Framework</b> and <b>SQL Server</b>, along with front-end technologies like <b>jQuery</b> and <b>Bootstrap</b> and mobile like <b>Sencha Touch</b>, <b>jQuery Mobile</b> and <b>Apache Cordova</b>. Before leaving my first job as a developer I started developing freelance projects with <b>PHP</b>, the <b>CodeIgniter</b> framework and <b>MySQL</b> as the database, starting at my next job I decided to direct the business to open technologies adopting <b>Laravel</b> PHP framework and <b>Angular</b> for the front-end, <b>Wordpress</b> and <b>Jekyll</b> for websites, <b>Ionic</b> and <b>Apache Cordova</b> for apps and <b>GIT</b> as versioning software. And without a doubt my favorite language is <b>Javascript</b>, so lately I have oriented my learning in technologies based on this one like Node.js, MongoDB, Angular and React."
+  services:
+    title: "Services"
+    text: "During these years I have had the opportunity to grow and be able to offer these services."
+  service_1:
+    title: "Software development"
+    text: "Do you have an idea, a project or a process that you want to automate? Talk to me! I'm sure we can do it."
+  service_2:
+    title: "Websites"
+    text: "Do you have an ugly, outdated and boring website? Or do not even have that? Tell me! I will create something great for you and your business.<br>&nbsp;"
+  service_3:
+    title: "Apps development"
+    text: "Do you need presence in any location? Contact me! We will achieve it with applications on mobile devices."
+  service_4:
+    title: "eCommerce"
+    text: "Do you want a store open 24 hours a day and with no inventory limit? Call me! We will put in motion all your products."
+  about:
+    title: "About me"
+    text: "Hi, I'm Mario, I was born and I live in Tijuana, the border with the United States. From an early age, I was very passionate about the computer world, I went to a computer school where I discovered that this was the career I wanted to study, and I did. Before leaving the university I worked at <a href='http://el-mexicano.com.mx' target='_blank'>El Mexicano</a>, a regional newspaper, as a software developer, where I had the opportunity to learn a lot, and after 3 and a half years, together with 2 co-workers, we opened our Digital Marketing company, <a href='http://gestiondigital.mx' target='_blank'>Gestión Digital</a>, where I spent 2 years and learned a lot of Marketing, website development, SEO, etc., but my passion is the software and the challenges that this entails, and although within this company I had development projects, I decided to separate myself to devote 100% to my specialty, starting as a freelancer and in the future to create my software development company."
+  facts:
+    title: "Fun facts"
+    fact_1: "Finished projects"
+    fact_2: "Lines of code"
+    fact_3: "Cups of coffee"
+    fact_4: "Happy clients"
+  contact:
+    title: "Get in touch"
+    text: "Talk me about your ideas, projects or simply say Hi :)"
+    subtitle_1: "Contact info"
+    subtitle_2: "Contact me"
+    subject: "New contact"
+    name: "Name"
+    email: "Email"
+    phone: "Phone"
+    message: "Message"
+    send: "Send message"
