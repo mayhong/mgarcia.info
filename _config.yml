@@ -5,4 +5,4 @@ maps_api: "AIzaSyA-swbMmPLMu9vAKjDlpSs8CAr2fxK7lp8"
 gems:
   - jekyll-multiple-languages-plugin
 languages: ["en", "es"]
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ["assets", "images"]
