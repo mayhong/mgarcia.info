@@ -5,6 +5,9 @@ pages:
   services: "Servicios"
   about: "Acerca"
   contact: "Contacto"
+head:
+  meta:
+    description: "Soy desarrollador web freelance"
 home:
   heading: "Hola, soy Mario García, desarrollador web freelance"
   planning:
@@ -48,7 +51,7 @@ home:
     subtitle: "Web | Red social"
   technology:
     title: "Tecnología"
-    text: "En mis inicios trabajé durante 3 años y medio con <b>C#</b>, <b>ASP.NET MVC Framework</b> y <b>SQL Server</b>, junto con tecnologías front-end como <b>jQuery</b> y <b>Bootstrap</b> y moviles como <b>Sencha Touch</b>, <b>jQuery Mobile</b> y <b>Apache Cordova</b>. Antes de salirme de mi primer empleo como desarrollador comencé a desarrollar proyectos freelance con <b>PHP</b>, el framework <b>CodeIgniter</b> y <b>MySQL</b> como la base de datos, al iniciar en mi siguiente trabajo decidí orientar el negocio hacia tecnologías libres adoptando el framework de PHP <b>Laravel</b> y <b>Angular</b> para el front-end, <b>Wordpress</b> y <b>Jekyll</b> para los sitios web, <b>Ionic</b> y <b>Apache Cordova</b> par las apps y <b>GIT</b> como software de control de versiones. Y sin duda mi lenguaje favorito es <b>Javascript</b>, por lo que últimamente he orientado mi aprendizaje en tecnologías basadas en éste como Node.js, MongoDB, Angular y React."
+    text: "En mis inicios trabajé durante 3 años y medio con <b>C#</b>, <b>ASP.NET MVC Framework</b> y <b>SQL Server</b>, junto con tecnologías front-end como <b>jQuery</b> y <b>Bootstrap</b> y moviles como <b>Sencha Touch</b>, <b>jQuery Mobile</b> y <b>Apache Cordova</b>. Antes de salirme de mi primer empleo como desarrollador comencé a desarrollar proyectos freelance con <b>PHP</b>, el framework <b>CodeIgniter</b> y <b>MySQL</b> como la base de datos, al iniciar en mi siguiente trabajo decidí orientar el negocio hacia tecnologías libres adoptando el framework de PHP <b>Laravel</b> y <b>Angular</b> para el front-end, <b>Wordpress</b> y <b>Jekyll</b> para los sitios web, <b>Ionic</b> y <b>Apache Cordova</b> par las apps y <b>GIT</b> como software de control de versiones. Y sin duda mi lenguaje favorito es <b>Javascript</b>, por lo que últimamente he orientado mi aprendizaje en tecnologías basadas en éste como Node.js, MongoDB y Angular."
   services:
     title: "Servicios"
     text: "Durante estos años he tenido la oportunidad de crecer y poder ofrecer estos servicios."
@@ -66,7 +69,7 @@ home:
     text: "¿Quieres una tienda abierta las 24hrs del día y sin límite de inventario? ¡Llamamé! pondremos en movimiento todos tus productos."
   about:
     title: "Acerca de mí"
-    text: "Hola, soy Mario, nací y vivo en Tijuana, frontera con Estados Unidos. Desde temprano me apasionó el mundo de la informática, entré a una escuela de computación donde descubrí que esta era la carrera que quería estudiar, y asi lo hice, antes de salir de la universidad entre a trabajar a <a href='http://el-mexicano.com.mx' target='_blank'>El Mexicano</a>, un periódico regional, como desarrollador de software, donde tuve la oportunidad de aprender muchísimo, y después de 3 años y medio junto con 2 compañeros de trabajo, abrimos nuestra empresa de Marketing Digital, <a href='http://gestiondigital.mx' target='_blank'>Gestión Digital</a>, donde estuve 2 años y aprendí mucho de Marketing, desarrollo de sitios web, SEO, etc., pero mi pasión es el software y los retos que este conlleva, y aunque dentro de esta empresa tenía proyectos de desarrollo, decidí separarme para dedicar el 100% a mi especialidad, comenzando como freelancer y en un futuro crear mi empresa de desarrollo de software."
+    text: "Hola, soy Mario, nací y vivo en Tijuana, frontera con Estados Unidos. Desde temprano me apasionó el mundo de la informática, entré a una escuela de computación donde descubrí que esta era la carrera que quería estudiar, y asi lo hice, antes de salir de la universidad entre a trabajar a <a href='http://el-mexicano.com.mx' target='_blank'>El Mexicano</a>, un periódico regional, como desarrollador de software, donde tuve la oportunidad de aprender muchísimo, y después de 3 años y medio junto con 2 compañeros de trabajo, abrimos nuestra empresa de Marketing Digital, <a href='http://gestiondigital.mx' target='_blank'>Gestión Digital</a>, donde estuve 2 años y aprendí mucho de Marketing, desarrollo de sitios web, SEO, etc., pero por diferencias de opinión con los inversionistas decidí separarme de la empresa y comenzar como freelancer dedicandome a mi pasión que es el desarrollo de software y los retos que este conlleva."
   facts:
     title: "Hechos curiosos"
     fact_1: "Proyectos concluidos"
