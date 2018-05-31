@@ -23,35 +23,44 @@ home:
     title: "Projects"
     text: "Each project is unique, here some of them."
   project_1:
-    title: "Click Ofertas"
-    subtitle: "Web | Offer website and CMS"
+    title: "ZhowIt"
+    subtitle: "Web | Talents social network"
   project_2:
+    title: "Click Ofertas"
+    subtitle: "Web | Promotions website and CMS"
+  project_3:
+    title: "Romlair"
+    subtitle: "Web | Time control system"
+  project_4:
+    title: "SEEA"
+    subtitle: "Web | Students delivery system"
+  project_5:
     title: "Orbex Logistics"
     subtitle: "Web | Warehouse system (WMS)"
-  project_3:
+  project_6:
     title: "Alpaimport"
     subtitle: "Web | Import and sale system"
-  project_4:
+  project_7:
     title: "Nexus Paquetería"
     subtitle: "Website"
-  project_5:
+  project_8:
     title: "Marco Corona"
     subtitle: "Political website"
-  project_6:
+  project_9:
     title: "Nacho Anaya"
     subtitle: "Political website"
-  project_7:
+  project_10:
     title: "El Mexicano Newspaper"
     subtitle: "Apps, CMS, systems, websites & more"
-  project_8:
+  project_11:
     title: "UABC (University)"
     subtitle: "Web | Academic management system"
-  project_9:
+  project_12:
     title: "CST"
     subtitle: "Web | Social network"
   technology:
     title: "Technology"
-    text: "In my beginnings I worked for 3 and a half years with <b>C#</b>, <b>ASP.NET MVC Framework</b> and <b>SQL Server</b>, along with front-end technologies like <b>jQuery</b> and <b>Bootstrap</b> and mobile like <b>Sencha Touch</b>, <b>jQuery Mobile</b> and <b>Apache Cordova</b>. Before leaving my first job as a developer I started developing freelance projects with <b>PHP</b>, the <b>CodeIgniter</b> framework and <b>MySQL</b> as the database, starting at my next job I decided to direct the business to open technologies adopting <b>Laravel</b> PHP framework and <b>Angular</b> for the front-end, <b>Wordpress</b> and <b>Jekyll</b> for websites, <b>Ionic</b> and <b>Apache Cordova</b> for apps and <b>GIT</b> as versioning software. And without a doubt my favorite language is <b>Javascript</b>, so lately I have oriented my learning in technologies based on this one like Node.js, MongoDB and Angular."
+    text: "In my beginnings I worked for 3 and a half years with <b>C#</b>, <b>ASP.NET MVC Framework</b> and <b>SQL Server</b>, along with front-end technologies like <b>jQuery</b> and <b>Bootstrap</b> and mobile like <b>Sencha Touch</b>, <b>jQuery Mobile</b> and <b>Apache Cordova</b>. Before leaving my first job as a developer I started developing freelance projects with <b>PHP</b>, the <b>CodeIgniter</b> framework and <b>MySQL</b> as the database, starting at my next job I decided to direct the business to open technologies adopting <b>Laravel</b> PHP framework and <b>Angular</b> for the front-end, <b>Wordpress</b> and <b>Jekyll</b> for websites, <b>Ionic</b> and <b>Apache Cordova</b> for apps and <b>GIT</b> as versioning software. And without a doubt my favorite language is <b>Javascript</b>, so lately I have oriented my projects in technologies based on this one like <b>Node.js</b>, and <b>Angular</b>."
   services:
     title: "Services"
     text: "During these years I have had the opportunity to grow and be able to offer these services."
@@ -69,7 +78,7 @@ home:
     text: "Do you want a store open 24 hours a day and with no inventory limit? Call me! We will put in motion all your products."
   about:
     title: "About me"
-    text: "Hi, I'm Mario, I was born and I live in Tijuana, the border with the United States. From an early age, I was very passionate about the computer world, I went to a computer school where I discovered that this was the career I wanted to study, and I did. Before leaving the university I worked at <a href='http://el-mexicano.com.mx' target='_blank'>El Mexicano</a>, a regional newspaper, as a software developer, where I had the opportunity to learn a lot, and after 3 and a half years, together with 2 co-workers, we opened our Digital Marketing company, <a href='http://gestiondigital.mx' target='_blank'>Gestión Digital</a>, where I spent 2 years and learned a lot of Marketing, website development, SEO, etc., but because of differences of opinion with investors I decided to separate from the company and start as a freelancer devoting myself to my passion that is software development and the challenges that this entails."
+    text: "Hi, I'm Mario, I was born and I live in Tijuana, the border with the United States. From an early age, I was very passionate about the computer world, I went to a computer school where I discovered that this was the career I wanted to study, and I did. Before leaving the university I worked at <a href='http://el-mexicano.com.mx' target='_blank'>El Mexicano</a>, a regional newspaper, as a software developer, where I had the opportunity to learn a lot, and after 3 and a half years, together with 2 co-workers, we opened our Digital Marketing company, <a href='http://gestiondigital.mx' target='_blank'>Gestión Digital</a>, where I spent 2 years and learned a lot of Marketing, website development, SEO, etc., but  I decided to separate me from the company and start as a freelancer devoting myself to my passion that is software development and the challenges that this entails."
   facts:
     title: "Fun facts"
     fact_1: "Finished projects"
